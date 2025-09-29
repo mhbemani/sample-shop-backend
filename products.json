@@ -1,0 +1,22 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Nike Air Max",
+      "price": 120,
+      "description": "Comfortable running shoes",
+      "image_url": "https://example.com/nike.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Adidas Hoodie",
+      "price": 80,
+      "description": "Warm and cozy hoodie",
+      "image_url": "https://example.com/adidas.jpg"
+    }
+  }
+]
