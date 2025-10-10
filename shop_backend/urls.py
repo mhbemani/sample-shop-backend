@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from products.views import product_list
+from products.chat_views import chat_proxy
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/products/', product_list),
+    path('api/chat/', chat_proxy),
 ]
 
